@@ -87,10 +87,11 @@ h2 {
 .image--desktop {
   display: none;
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: -9rem;
   height: 15rem;
   width: auto;
+  transform: translateY(-5rem);
   transition: 0.6s all ease-in-out
 }
 
@@ -99,7 +100,7 @@ h2 {
 }
 
 .image--desktop:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-6rem);
 }
 
 /* List */
@@ -138,7 +139,6 @@ li h2::before {
 li p {
   height: 0;
   overflow: hidden;
-  transition: 0.2s all;
 }
 
 /* Active State */
